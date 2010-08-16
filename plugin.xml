@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="JavaConventionBuilder"
+         name="Use Java Convention Builder"
+         point="org.eclipse.core.resources.builders">
+      <builder>
+         <run
+               class="com.github.use.fmt.Builder">
+         </run></builder>
+   </extension>
+
+</plugin>
